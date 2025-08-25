@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+Spring:
+  datasource:
+    url: mysql://avnadmin:AVNS_iVs60XLtcXvpX_63cyR@mysql-1ab90beb-esfe-53aa.d.aivencloud.com:20113/defaultdb?ssl-mode=REQUIRED
+    username: defaultdb
+    password: AVNS_iVs60XLtcXvpX_63cyR
+    driver-class-name:
+
+jpa:
+  hibernet:
+  ddl-auto: none
+  show-sql: true
+  properties:
+    hibernet:
+      dialect: org.hibernet
+
